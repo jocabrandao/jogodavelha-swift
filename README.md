@@ -17,6 +17,11 @@ Além disso, tem também:
  - Autolayout
 
 
+## Screenshots
+![alt tag](http://bwmobi.com.br/app/jogodavelha.PNG "Tela do jogo demonstrando quando há vencedor.")
+
+![alt tag](http://bwmobi.com.br/app/jogodavelha2.PNG "Tela do jogo demonstrando quando não há vencedor.")
+
 ## Construído utilizando
 
 * [Xcode 8](https://developer.apple.com/xcode) - IDE de desenvolvimento.
