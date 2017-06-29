@@ -18,9 +18,9 @@ Além disso, tem também:
 
 
 ## Screenshots
-![alt tag](screenshots/jogodavelha.PNG "Tela do jogo demonstrando quando há vencedor.")
+![alt tag](screenshots/jogodavelha.png "Tela do jogo demonstrando quando há vencedor.")
 
-![alt tag](screenshots/jogodavelha2.PNG "Tela do jogo demonstrando quando não há vencedor.")
+![alt tag](screenshots/jogodavelha2.png "Tela do jogo demonstrando quando não há vencedor.")
 
 ## Construído utilizando
 
