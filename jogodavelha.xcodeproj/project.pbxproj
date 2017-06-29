@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C031D0D21DC4B0CF00207C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031D0D11DC4B0CF00207C49 /* AppDelegate.swift */; };
+		C031D0D41DC4B0CF00207C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031D0D31DC4B0CF00207C49 /* ViewController.swift */; };
+		C031D0D71DC4B0CF00207C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C031D0D51DC4B0CF00207C49 /* Main.storyboard */; };
+		C031D0D91DC4B0CF00207C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C031D0D81DC4B0CF00207C49 /* Assets.xcassets */; };
+		C031D0DC1DC4B0CF00207C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C031D0DA1DC4B0CF00207C49 /* LaunchScreen.storyboard */; };
+		C031D0E71DC4B0CF00207C49 /* jogodavelhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031D0E61DC4B0CF00207C49 /* jogodavelhaTests.swift */; };
+		C031D0F21DC4B0CF00207C49 /* jogodavelhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031D0F11DC4B0CF00207C49 /* jogodavelhaUITests.swift */; };
+		C07AD7691F0495F600219ED3 /* ganho_diagonal_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7611F0495F600219ED3 /* ganho_diagonal_0.png */; };
+		C07AD76A1F0495F600219ED3 /* ganho_diagonal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7621F0495F600219ED3 /* ganho_diagonal_2.png */; };
+		C07AD76B1F0495F600219ED3 /* ganho_horizontal_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7631F0495F600219ED3 /* ganho_horizontal_0.png */; };
+		C07AD76C1F0495F600219ED3 /* ganho_horizontal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7641F0495F600219ED3 /* ganho_horizontal_1.png */; };
+		C07AD76D1F0495F600219ED3 /* ganho_horizontal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7651F0495F600219ED3 /* ganho_horizontal_2.png */; };
+		C07AD76E1F0495F600219ED3 /* ganho_vertical_0.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7661F0495F600219ED3 /* ganho_vertical_0.png */; };
+		C07AD76F1F0495F600219ED3 /* ganho_vertical_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7671F0495F600219ED3 /* ganho_vertical_1.png */; };
+		C07AD7701F0495F600219ED3 /* ganho_vertical_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD7681F0495F600219ED3 /* ganho_vertical_2.png */; };
+		C0AE4A191DC4CF2C004AA700 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE4A161DC4CF2C004AA700 /* board.png */; };
+		C0AE4A1A1DC4CF2C004AA700 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE4A171DC4CF2C004AA700 /* circle.png */; };
+		C0AE4A1B1DC4CF2C004AA700 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AE4A181DC4CF2C004AA700 /* cross.png */; };
+		C0AE4A1D1DC56151004AA700 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0AE4A1C1DC56151004AA700 /* audio.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C031D0E31DC4B0CF00207C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C031D0C61DC4B0CF00207C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C031D0CD1DC4B0CF00207C49;
+			remoteInfo = jogodavelha;
+		};
+		C031D0EE1DC4B0CF00207C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C031D0C61DC4B0CF00207C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C031D0CD1DC4B0CF00207C49;
+			remoteInfo = jogodavelha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C031D0CE1DC4B0CF00207C49 /* jogodavelha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jogodavelha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C031D0D11DC4B0CF00207C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C031D0D31DC4B0CF00207C49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C031D0D61DC4B0CF00207C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C031D0D81DC4B0CF00207C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C031D0DB1DC4B0CF00207C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C031D0DD1DC4B0CF00207C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C031D0E21DC4B0CF00207C49 /* jogodavelhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jogodavelhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C031D0E61DC4B0CF00207C49 /* jogodavelhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jogodavelhaTests.swift; sourceTree = "<group>"; };
+		C031D0E81DC4B0CF00207C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C031D0ED1DC4B0CF00207C49 /* jogodavelhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jogodavelhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C031D0F11DC4B0CF00207C49 /* jogodavelhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jogodavelhaUITests.swift; sourceTree = "<group>"; };
+		C031D0F31DC4B0CF00207C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07AD7611F0495F600219ED3 /* ganho_diagonal_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_diagonal_0.png; sourceTree = "<group>"; };
+		C07AD7621F0495F600219ED3 /* ganho_diagonal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_diagonal_2.png; sourceTree = "<group>"; };
+		C07AD7631F0495F600219ED3 /* ganho_horizontal_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_horizontal_0.png; sourceTree = "<group>"; };
+		C07AD7641F0495F600219ED3 /* ganho_horizontal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_horizontal_1.png; sourceTree = "<group>"; };
+		C07AD7651F0495F600219ED3 /* ganho_horizontal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_horizontal_2.png; sourceTree = "<group>"; };
+		C07AD7661F0495F600219ED3 /* ganho_vertical_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_vertical_0.png; sourceTree = "<group>"; };
+		C07AD7671F0495F600219ED3 /* ganho_vertical_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_vertical_1.png; sourceTree = "<group>"; };
+		C07AD7681F0495F600219ED3 /* ganho_vertical_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganho_vertical_2.png; sourceTree = "<group>"; };
+		C0AE4A161DC4CF2C004AA700 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		C0AE4A171DC4CF2C004AA700 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		C0AE4A181DC4CF2C004AA700 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		C0AE4A1C1DC56151004AA700 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C031D0CB1DC4B0CF00207C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0DF1DC4B0CF00207C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0EA1DC4B0CF00207C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C031D0C51DC4B0CF00207C49 = {
+			isa = PBXGroup;
+			children = (
+				C031D0D01DC4B0CF00207C49 /* jogodavelha */,
+				C031D0E51DC4B0CF00207C49 /* jogodavelhaTests */,
+				C031D0F01DC4B0CF00207C49 /* jogodavelhaUITests */,
+				C031D0CF1DC4B0CF00207C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C031D0CF1DC4B0CF00207C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C031D0CE1DC4B0CF00207C49 /* jogodavelha.app */,
+				C031D0E21DC4B0CF00207C49 /* jogodavelhaTests.xctest */,
+				C031D0ED1DC4B0CF00207C49 /* jogodavelhaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C031D0D01DC4B0CF00207C49 /* jogodavelha */ = {
+			isa = PBXGroup;
+			children = (
+				C031D0D11DC4B0CF00207C49 /* AppDelegate.swift */,
+				C031D0D31DC4B0CF00207C49 /* ViewController.swift */,
+				C031D0D51DC4B0CF00207C49 /* Main.storyboard */,
+				C07AD7611F0495F600219ED3 /* ganho_diagonal_0.png */,
+				C07AD7621F0495F600219ED3 /* ganho_diagonal_2.png */,
+				C07AD7631F0495F600219ED3 /* ganho_horizontal_0.png */,
+				C07AD7641F0495F600219ED3 /* ganho_horizontal_1.png */,
+				C07AD7651F0495F600219ED3 /* ganho_horizontal_2.png */,
+				C07AD7661F0495F600219ED3 /* ganho_vertical_0.png */,
+				C07AD7671F0495F600219ED3 /* ganho_vertical_1.png */,
+				C07AD7681F0495F600219ED3 /* ganho_vertical_2.png */,
+				C0AE4A161DC4CF2C004AA700 /* board.png */,
+				C0AE4A171DC4CF2C004AA700 /* circle.png */,
+				C0AE4A181DC4CF2C004AA700 /* cross.png */,
+				C0AE4A1C1DC56151004AA700 /* audio.mp3 */,
+				C031D0D81DC4B0CF00207C49 /* Assets.xcassets */,
+				C031D0DA1DC4B0CF00207C49 /* LaunchScreen.storyboard */,
+				C031D0DD1DC4B0CF00207C49 /* Info.plist */,
+			);
+			path = jogodavelha;
+			sourceTree = "<group>";
+		};
+		C031D0E51DC4B0CF00207C49 /* jogodavelhaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C031D0E61DC4B0CF00207C49 /* jogodavelhaTests.swift */,
+				C031D0E81DC4B0CF00207C49 /* Info.plist */,
+			);
+			path = jogodavelhaTests;
+			sourceTree = "<group>";
+		};
+		C031D0F01DC4B0CF00207C49 /* jogodavelhaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C031D0F11DC4B0CF00207C49 /* jogodavelhaUITests.swift */,
+				C031D0F31DC4B0CF00207C49 /* Info.plist */,
+			);
+			path = jogodavelhaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C031D0CD1DC4B0CF00207C49 /* jogodavelha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C031D0F61DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelha" */;
+			buildPhases = (
+				C031D0CA1DC4B0CF00207C49 /* Sources */,
+				C031D0CB1DC4B0CF00207C49 /* Frameworks */,
+				C031D0CC1DC4B0CF00207C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jogodavelha;
+			productName = jogodavelha;
+			productReference = C031D0CE1DC4B0CF00207C49 /* jogodavelha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C031D0E11DC4B0CF00207C49 /* jogodavelhaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C031D0F91DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelhaTests" */;
+			buildPhases = (
+				C031D0DE1DC4B0CF00207C49 /* Sources */,
+				C031D0DF1DC4B0CF00207C49 /* Frameworks */,
+				C031D0E01DC4B0CF00207C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C031D0E41DC4B0CF00207C49 /* PBXTargetDependency */,
+			);
+			name = jogodavelhaTests;
+			productName = jogodavelhaTests;
+			productReference = C031D0E21DC4B0CF00207C49 /* jogodavelhaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C031D0EC1DC4B0CF00207C49 /* jogodavelhaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C031D0FC1DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelhaUITests" */;
+			buildPhases = (
+				C031D0E91DC4B0CF00207C49 /* Sources */,
+				C031D0EA1DC4B0CF00207C49 /* Frameworks */,
+				C031D0EB1DC4B0CF00207C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C031D0EF1DC4B0CF00207C49 /* PBXTargetDependency */,
+			);
+			name = jogodavelhaUITests;
+			productName = jogodavelhaUITests;
+			productReference = C031D0ED1DC4B0CF00207C49 /* jogodavelhaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C031D0C61DC4B0CF00207C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BWmobi;
+				TargetAttributes = {
+					C031D0CD1DC4B0CF00207C49 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3VTJF2K4TB;
+						ProvisioningStyle = Automatic;
+					};
+					C031D0E11DC4B0CF00207C49 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3VTJF2K4TB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C031D0CD1DC4B0CF00207C49;
+					};
+					C031D0EC1DC4B0CF00207C49 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3VTJF2K4TB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C031D0CD1DC4B0CF00207C49;
+					};
+				};
+			};
+			buildConfigurationList = C031D0C91DC4B0CF00207C49 /* Build configuration list for PBXProject "jogodavelha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C031D0C51DC4B0CF00207C49;
+			productRefGroup = C031D0CF1DC4B0CF00207C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C031D0CD1DC4B0CF00207C49 /* jogodavelha */,
+				C031D0E11DC4B0CF00207C49 /* jogodavelhaTests */,
+				C031D0EC1DC4B0CF00207C49 /* jogodavelhaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C031D0CC1DC4B0CF00207C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07AD76B1F0495F600219ED3 /* ganho_horizontal_0.png in Resources */,
+				C0AE4A1B1DC4CF2C004AA700 /* cross.png in Resources */,
+				C07AD76A1F0495F600219ED3 /* ganho_diagonal_2.png in Resources */,
+				C07AD7691F0495F600219ED3 /* ganho_diagonal_0.png in Resources */,
+				C0AE4A1D1DC56151004AA700 /* audio.mp3 in Resources */,
+				C0AE4A191DC4CF2C004AA700 /* board.png in Resources */,
+				C07AD76E1F0495F600219ED3 /* ganho_vertical_0.png in Resources */,
+				C031D0DC1DC4B0CF00207C49 /* LaunchScreen.storyboard in Resources */,
+				C07AD76C1F0495F600219ED3 /* ganho_horizontal_1.png in Resources */,
+				C07AD76F1F0495F600219ED3 /* ganho_vertical_1.png in Resources */,
+				C07AD76D1F0495F600219ED3 /* ganho_horizontal_2.png in Resources */,
+				C07AD7701F0495F600219ED3 /* ganho_vertical_2.png in Resources */,
+				C0AE4A1A1DC4CF2C004AA700 /* circle.png in Resources */,
+				C031D0D91DC4B0CF00207C49 /* Assets.xcassets in Resources */,
+				C031D0D71DC4B0CF00207C49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0E01DC4B0CF00207C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0EB1DC4B0CF00207C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C031D0CA1DC4B0CF00207C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C031D0D41DC4B0CF00207C49 /* ViewController.swift in Sources */,
+				C031D0D21DC4B0CF00207C49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0DE1DC4B0CF00207C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C031D0E71DC4B0CF00207C49 /* jogodavelhaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C031D0E91DC4B0CF00207C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C031D0F21DC4B0CF00207C49 /* jogodavelhaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C031D0E41DC4B0CF00207C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C031D0CD1DC4B0CF00207C49 /* jogodavelha */;
+			targetProxy = C031D0E31DC4B0CF00207C49 /* PBXContainerItemProxy */;
+		};
+		C031D0EF1DC4B0CF00207C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C031D0CD1DC4B0CF00207C49 /* jogodavelha */;
+			targetProxy = C031D0EE1DC4B0CF00207C49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C031D0D51DC4B0CF00207C49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C031D0D61DC4B0CF00207C49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C031D0DA1DC4B0CF00207C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C031D0DB1DC4B0CF00207C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C031D0F41DC4B0CF00207C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C031D0F51DC4B0CF00207C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C031D0F71DC4B0CF00207C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C031D0F81DC4B0CF00207C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C031D0FA1DC4B0CF00207C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogodavelha.app/jogodavelha";
+			};
+			name = Debug;
+		};
+		C031D0FB1DC4B0CF00207C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelhaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogodavelha.app/jogodavelha";
+			};
+			name = Release;
+		};
+		C031D0FD1DC4B0CF00207C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jogodavelha;
+			};
+			name = Debug;
+		};
+		C031D0FE1DC4B0CF00207C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3VTJF2K4TB;
+				INFOPLIST_FILE = jogodavelhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwmobi.jogodavelhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jogodavelha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C031D0C91DC4B0CF00207C49 /* Build configuration list for PBXProject "jogodavelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031D0F41DC4B0CF00207C49 /* Debug */,
+				C031D0F51DC4B0CF00207C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C031D0F61DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031D0F71DC4B0CF00207C49 /* Debug */,
+				C031D0F81DC4B0CF00207C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C031D0F91DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelhaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031D0FA1DC4B0CF00207C49 /* Debug */,
+				C031D0FB1DC4B0CF00207C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C031D0FC1DC4B0CF00207C49 /* Build configuration list for PBXNativeTarget "jogodavelhaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031D0FD1DC4B0CF00207C49 /* Debug */,
+				C031D0FE1DC4B0CF00207C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C031D0C61DC4B0CF00207C49 /* Project object */;
+}
