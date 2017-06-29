@@ -18,9 +18,9 @@ Além disso, tem também:
 
 
 ## Screenshots
-![alt tag](http://bwmobi.com.br/app/jogodavelha.PNG "Tela do jogo demonstrando quando há vencedor.")
+![alt tag](screenshots/jogodavelha.PNG "Tela do jogo demonstrando quando há vencedor.")
 
-![alt tag](http://bwmobi.com.br/app/jogodavelha2.PNG "Tela do jogo demonstrando quando não há vencedor.")
+![alt tag](screenshots/jogodavelha2.PNG "Tela do jogo demonstrando quando não há vencedor.")
 
 ## Construído utilizando
 
